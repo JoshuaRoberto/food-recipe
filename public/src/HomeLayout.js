@@ -7,7 +7,10 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Image from "next/image";
 
-export default function HomeLay() {
+
+export default function HomeLayout({children}) {
+
+    
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static"  sx={{ backgroundColor: "white" }}>
@@ -58,6 +61,7 @@ export default function HomeLay() {
           </Button>
         </Toolbar>
       </AppBar>
+      <Box sx= {{marginTop:"3px"}}>{children}</Box>
     </Box>
   );
 }
