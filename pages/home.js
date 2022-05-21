@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Box
       sx={{
-        backgroundImage: "url(/assets/BG.jpg)",
+        backgroundImage: "url(/assets/ba.jpg)",
         height: "100vh",
         width: "100vw",
         backgroundSize: "cover",
@@ -30,16 +30,16 @@ export default function Home() {
           }}
         >
           <Box sx={{ mt: 10 }}>
-            <Image src="/assets/homeBG.jpg" alt="user" width={200} height={200} />
+            <Image src="/assets/hat.png" alt="user" width={600} height={400} />
           </Box>
         </Box>
       </Container>
       <Box>
         <Typography
-          variant="h4"
-          sx={{ textAlign: "center", fontFamily: "Cursive" }}
+          variant="h3"
+          sx={{ textAlign: "center", fontFamily: "Cursive", color:"white" }}
         >
-          Giving Light to the World
+          Giving the Best Food Recipe to the World
         </Typography>
         <Box
           sx={{
@@ -49,7 +49,7 @@ export default function Home() {
             alignItems: "center",
           }}
         >
-          <Button variant="contained" onClick={() => router.push("product" )}>View All Products</Button>
+          <Button variant="contained" onClick={() => router.push("product" )}>View Sample Recipe</Button>
         </Box>
       </Box>
     </Box>
