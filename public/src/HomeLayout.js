@@ -62,7 +62,7 @@ export default function HomeLayout({ children }) {
             About
           </Button>
           <Button
-          onClick={() =>router.push("home" )}
+          onClick={() =>router.push("sign-in" )}
             color="inherit"
             variant="h4"
             sx={{ fontWeight: "bold", color: "black" }}

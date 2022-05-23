@@ -2,11 +2,13 @@ import { Typography, Box, Container, Button} from "@mui/material";
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 
 import HomeLayout from "../public/src/HomeLayout";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <Box
       sx={{
@@ -49,7 +51,7 @@ export default function Home() {
             alignItems: "center",
           }}
         >
-          <Button variant="contained" onClick={() => router.push("product" )}>View Sample Recipe</Button>
+          <Button variant="contained" onClick={() => router.push("sampleres" )}>View Sample Recipe</Button>
         </Box>
       </Box>
     </Box>

@@ -37,6 +37,7 @@ export default function SignIn() {
       setMessage({
         text: "Logged in Successfully",
         severity: "success",
+        
       });
     } else if (state.email === "" && state.password === "") {
       setOpen(true);

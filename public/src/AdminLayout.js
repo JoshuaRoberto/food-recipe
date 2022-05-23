@@ -84,16 +84,7 @@ export default function AdminLayout({ children }) {
               <ListItemText primary="Dashboard" />
             </ListItem>
 
-            <ListItem
-              button
-              onClick={() => drawerToPage("/orders")}
-              sx={{ marginTop: "10px" }}
-            >
-              <ListItemIcon>
-                
-              </ListItemIcon>
-              <ListItemText primary=" Orders" />
-            </ListItem>
+            
 
             <ListItem
               button
@@ -103,20 +94,11 @@ export default function AdminLayout({ children }) {
               <ListItemIcon>
                
               </ListItemIcon>
-              <ListItemText primary=" Customers" />
+              <ListItemText primary=" Users" />
             </ListItem>
+            </List>
 
-            <ListItem
-              onClick={() => drawerToPage("/product")}
-              button
-              sx={{ marginTop: "10px" }}
-            >
-              <ListItemIcon>
-                
-              </ListItemIcon>
-              <ListItemText primary=" Product" />
-            </ListItem>
-          </List>
+           
           <List>
             <Divider />
             <ListItem button onClick={() => drawerToPage("/home")}>
