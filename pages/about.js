@@ -29,7 +29,7 @@ export default function About() {
             alignItems: "center",
           }}
         >
-          <Box sx={{ mt: 10 }}>
+          <Box sx={{ mt: 1 }}>
             <Image src="/assets/hat.png" alt="user" width={600} height={400} />
           </Box>
         </Box>

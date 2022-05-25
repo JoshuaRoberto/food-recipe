@@ -5,8 +5,19 @@ import Image from "next/image";
 
 import HomeLayout from "../public/src/HomeLayout";
 import styled from "@emotion/styled";
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import PropTypes from 'prop-types';
+import { useState } from "react";
+export  default function SampleRes() {
+  const [open, setOpen] = useState(false);
+  const setDrawerOpen = () => {
+    setOpen(true);
+  };
 
-export default function SampleRecipe() {
+  const handleClose = () => {
+    setOpen(false);
+  };
 
 const Container = styled.div` 
 display: flex;
@@ -49,7 +60,8 @@ border-radius: 4px;
 text-align:center;
 margin: 10px 0 ;
 `;
-  
+
+
     
   return (
     <Box>
@@ -95,12 +107,18 @@ margin: 10px 0 ;
       flexDirection: "column",
       alignItems: "center",
     }}>
-    <Button variant="contained" onClick={() => router.push("sampleres" )}>View All Recipe</Button>
+      <Dialog open={open} onClose={handleClose}>
+      <DialogTitle>Set backup account</DialogTitle>
+      <Typography>Ang Ganda Ni Lyca Deleon</Typography>
+      <Typography>Ang Ganda mo Bhieeee </Typography>
+      </Dialog>
+    <Button  onClick={setDrawerOpen} variant="contained">View All Recipe</Button>
       </Box> 
     </Box>
   );
 }
+ 
 
-SampleRecipe.getLayout = function getLayout(page) {
+SampleRes.getLayout = function getLayout(page) {
   return <HomeLayout>{page}</HomeLayout>;
 };

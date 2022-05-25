@@ -1,8 +1,15 @@
-import { Typography, Box, Container, Button, Grid, Paper , TextField , TextareaAutosize} from "@mui/material";
+import {
+  Typography,
+  Box,
+  Container,
+  Button,
+  Grid,
+  Paper,
+  TextField,
+  TextareaAutosize,
+} from "@mui/material";
 import Head from "next/head";
 import React from "react";
-
-
 
 import HomeLayout from "../public/src/HomeLayout";
 
@@ -73,7 +80,11 @@ export default function Contact() {
                   autoComplete="email"
                 />
                 <Typography variant="h5">Message</Typography>
-                <TextareaAutosize></TextareaAutosize>
+                <TextareaAutosize
+                  aria-label="minimum height"
+                  placeholder="Enter Your Message"
+                  style={{ width: 500 , height: 150}}
+                ></TextareaAutosize>
                 <Button fullWidth variant="outlined" sx={{ mt: 3, mb: 2 }}>
                   Send Message
                 </Button>
