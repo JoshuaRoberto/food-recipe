@@ -133,6 +133,9 @@ export default function SampleRes() {
           <RecipeContainer>
             <img src="/assets/Sisig.jpg" width="800px" height="600px" />
             <RecipeName>Pork Sisig</RecipeName>
+            <Typography>Nothing goes to waste in Filipino food.In the culinary capital of Pampanga, they turn the pork's cheeks,head </Typography>
+            <Typography>and liver into a sizzling dish called Sisig.The crunchy and chewy texture of this appetizer is a perfect match</Typography>
+            <Typography> for a cold beer.Serve with hot sauce and Knorr seasoning to suit the preference of you and your buddies.</Typography>
             <Grid container>
               <Grid item xs>
                 <Box>
@@ -182,6 +185,9 @@ export default function SampleRes() {
           <RecipeContainer>
             <img src="/assets/Bulalo.jpg"  width="800px" height="600px" />
             <RecipeName>Bulalo</RecipeName>
+            <Typography>Despite the perennial heat, Filipinos often enjoy sipping piping hot bulalo soup made with from freshly </Typography>
+            <Typography>slaughtered Batangas beef.The broth is rich with flavors seeped from the beef after boiling for hours.</Typography>
+            <Typography>The bones are big, meaning more bone marrow to enjoy.</Typography>
             <Grid container>
               <Grid item xs>
                 <Box>
@@ -230,6 +236,8 @@ export default function SampleRes() {
           <RecipeContainer>
             <img src="/assets/Tinola.jpg"  width="800px" height="600px" />
             <RecipeName>Tinola</RecipeName>
+            <Typography>The simple sour broth is flavored with onions, tomatoes and sambag (tamarind) </Typography>
+            <Typography>and cooked over coco-lumber firewood for hours.</Typography>
             <Grid container>
               <Grid item xs>
                 <Box>
