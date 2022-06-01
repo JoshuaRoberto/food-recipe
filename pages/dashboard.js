@@ -15,20 +15,27 @@ export default function Dashboard() {
       <Head>
         <title> Admin-Dashboard</title>
       </Head>
-    <Grid container spacing={4} >
-      <Grid item  xs={12} sm>
-        <Paper  sx={style.paper1}>
+    <Grid container spacing={2} >
+      <Grid item  xs={4} sm>
+        <Paper >
           <Typography variant= "h4">Orders</Typography>
           <Typography variant="h2">100</Typography>
         </Paper>
       </Grid>
-      <Grid item xs={12} sm> 
-        <Paper sx={style.paper1}>
+      <Grid item xs={4} sm> 
+        <Paper >
           <Typography variant="h4">Customers</Typography>
           <Typography variant="h2">100</Typography>
         </Paper>
       </Grid>
     </Grid>
+    <Grid item xs={4} sm> 
+        <Paper >
+          <Typography variant="h4">Customers</Typography>
+          <Typography variant="h2">100</Typography>
+        </Paper>
+      </Grid>
+    
     </Box>
     
   );
