@@ -1,5 +1,6 @@
 import * as React from "react";
 import Head from "next/head";
+import HomeLayout from "../public/src/HomeLayout";
 import {
   Paper,
   Box,
@@ -74,6 +75,13 @@ export default function SignIn() {
 
   return (
     <Box
+    sx={{
+      backgroundImage: "url(/assets/bg.jpg)",
+      height: "100vh",
+      width: "100vw",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
     >
       
       <ThemeProvider theme={theme}>
@@ -81,7 +89,7 @@ export default function SignIn() {
           <CssBaseline />
           <Box
             sx={{
-              marginTop: 8,
+              
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
@@ -172,3 +180,6 @@ export default function SignIn() {
     </Box>
   );
 }
+SignIn.getLayout = function getLayout(page) {
+  return <HomeLayout>{page}</HomeLayout>;
+};

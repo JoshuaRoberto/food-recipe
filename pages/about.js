@@ -10,7 +10,7 @@ export default function About() {
   return (
     <Box
       sx={{
-        backgroundImage: "url(/assets/bg.jpg)",
+        backgroundImage: "url(/assets/ab.jpg)",
         height: "100vh",
         width: "100vw",
         backgroundSize: "cover",
@@ -37,12 +37,11 @@ export default function About() {
       <Box>
       <Box sx={{textAlign:"center"}}>
         <Typography variant="h4" sx={{fontFamily:'cursive', fontWeight:'bold'}}>ABOUT</Typography>
-        <Typography variant= "h5" sx={{marginTop:"20px" , fontWeight:'bold'}}>    Chan's Candle is all about care and quality. We produce long-lasting and quality candles. We have</Typography>
-        <Typography variant= "h5" sx={{ fontWeight:'bold'}}>Procession candles, colored Tomb candles, Decorative candles, Glass candles, and Esperma candles. </Typography>
-        <Typography variant= "h5" sx={{ fontWeight:'bold'}}>We make them all.</Typography>
-        <Typography variant= "h5" sx={{marginTop:"20px" , fontWeight:'bold'}}>Finding and buying long-lasting and cheap candles online is no longer a problem with</Typography>
-        <Typography variant= "h5" sx={{ fontWeight:'bold'}}>Chan's Cande</Typography>  
-        <Typography variant= "h5" sx={{ fontWeight:'bold' , marginTop: "50px"}}>LOCATION: Viola St.Old Sta. Rita San Miguel Bulacan</Typography>  
+        <Typography variant= "h4" sx={{marginTop:"20px" , fontWeight:'bold'}}> Pinoy Cuisine Food Recipe</Typography>
+        <Typography variant= "h5" sx={{ fontWeight:'bold'}}> Filipino food may not be as famous as that of its Thai and Vietnamese neighbors. </Typography>
+        <Typography variant= "h5" sx={{ fontWeight:'bold'}}>But with more than 7,000 islands and a colorful history, this archipelago has some delicious dishes of its own.</Typography>
+        <Typography variant= "h5" sx={{ fontWeight:'bold'}}>Blessed with an abundance of seafood, tropical fruits and creative cooks, </Typography>  
+        <Typography variant= "h5" sx={{ fontWeight:'bold'}}> there's more to Filipino food than the mind-boggling balut (duck embryo). </Typography>
 
       </Box>
         <Box

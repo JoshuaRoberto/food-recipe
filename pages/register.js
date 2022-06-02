@@ -1,5 +1,6 @@
 import * as React from "react";
 import Head from "next/head";
+import HomeLayout from "../public/src/HomeLayout";
 import {
   Paper,
   Box,
@@ -75,7 +76,13 @@ export default function Register() {
 
   return (
     <Box
-      
+    sx={{
+      backgroundImage: "url(/assets/bg.jpg)",
+      height: "100vh",
+      width: "100vw",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
     >
       <ThemeProvider theme={theme}>
         <Container component="main" maxWidth="xs">
@@ -196,3 +203,6 @@ export default function Register() {
     </Box>
   );
 }
+Register.getLayout = function getLayout(page) {
+  return <HomeLayout>{page}</HomeLayout>;
+};
