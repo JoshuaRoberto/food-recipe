@@ -40,16 +40,22 @@ export default function AdminLayout({ children }) {
       <Head>
         <title> Admin-Dashboard</title>
       </Head>
-      <AppBar sx={{color:"#FCF69C",backgroundColor:"#1D5C63"}}>
+      <AppBar sx={{ color: "#FCF69C", backgroundColor: "white" }}>
         <Toolbar>
           <IconButton onClick={setDrawerOpen}>
             <Image src="/assets/bars.svg" alt="bars" width={30} height={30} />
           </IconButton>
           <Typography
-            variant="h5"
-            sx={{ marginLeft: "12px", fontWeight: "700" }}
+            variant="h4"
+            component="div"
+            sx={{
+              flexGrow: 1,
+              fontWeight: "bold",
+              fontFamily: "Brush Script MT",
+              color: "#EB5353",
+            }}
           >
-            Chan's Candle
+            Pinoy Cuisine Food Recipe
           </Typography>
         </Toolbar>
       </AppBar>
@@ -64,9 +70,13 @@ export default function AdminLayout({ children }) {
           }}
         >
           <Box>
-            <Avatar sx={{ marginLeft: "70px", marginTop: "10px" }} />
+            <Avatar
+              sx={{ marginLeft: "70px", marginTop: "10px", bgcolor: " green" }}
+            />
           </Box>
-          <Typography sx={{ marginLeft: "60px", marginTop: "12px" }}>
+          <Typography
+            sx={{ marginLeft: "70px", marginTop: "12px", fontWeight: "bold" }}
+          >
             Admin
           </Typography>
           <List sx={{ flexGrow: 1 }}>
@@ -79,33 +89,34 @@ export default function AdminLayout({ children }) {
               selected={router.pathname.includes("dashboard")}
             >
               <ListItemIcon>
-                
+              <Image src="/assets/dashboard.svg" alt="bars" width={30} height={30} />
               </ListItemIcon>
               <ListItemText primary="Dashboard" />
             </ListItem>
-
-            
 
             <ListItem
               button
               onClick={() => drawerToPage("/customer")}
               sx={{ marginTop: "10px" }}
             >
-              <ListItemIcon>
-               
-              </ListItemIcon>
+              <ListItemIcon><Image src="/assets/profile.svg" alt="bars" width={30} height={30} /></ListItemIcon>
               <ListItemText primary=" Users" />
             </ListItem>
-            </List>
 
-           
+            <ListItem
+              button
+              onClick={() => drawerToPage("/Message")}
+              sx={{ marginTop: "10px" }}
+            >
+              <ListItemIcon><Image src="/assets/message.svg" alt="bars" width={30} height={30} /></ListItemIcon>
+              <ListItemText primary=" Messages" />
+            </ListItem>
+          </List>
+
           <List>
             <Divider />
             <ListItem button onClick={() => drawerToPage("/home")}>
-              <ListItemIcon>
-                
-               
-              </ListItemIcon>
+              <ListItemIcon><Image src="/assets/sign-up.svg" alt="bars" width={30} height={30} /></ListItemIcon>
               <ListItemText primary="Sign-Out" />
             </ListItem>
           </List>

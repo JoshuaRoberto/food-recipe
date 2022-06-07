@@ -48,6 +48,7 @@ export default function Contact() {
             </Typography>
           </Box>
         </Grid>
+
         <Grid item xs>
           <Container component="main" maxWidth="xs">
             <Paper
@@ -83,7 +84,7 @@ export default function Contact() {
                 <TextareaAutosize
                   aria-label="minimum height"
                   placeholder="Enter Your Message"
-                  style={{ width: 500 , height: 150}}
+                  style={{ width: 500, height: 150 }}
                 ></TextareaAutosize>
                 <Button fullWidth variant="outlined" sx={{ mt: 3, mb: 2 }}>
                   Send Message

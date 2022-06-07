@@ -29,12 +29,7 @@ export default function Dashboard() {
         </Paper>
       </Grid>
     </Grid>
-    <Grid item xs={4} sm> 
-        <Paper >
-          <Typography variant="h4">Customers</Typography>
-          <Typography variant="h2">100</Typography>
-        </Paper>
-      </Grid>
+   
     
     </Box>
     

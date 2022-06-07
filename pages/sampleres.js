@@ -80,14 +80,27 @@ export default function SampleRes() {
           <RecipeContainer>
             <img src="/assets/adobo.jpg" width="800px" height="600px" />
             <RecipeName>Adobo</RecipeName>
-            <Typography>   No list of Filipino food would be complete without adobo.A ubiquitous dish in every household in the Philippines,</Typography>
-            <Typography>it's Mexican in origin. But Filipinos found that cooking meat (often chicken and pork) in vinegar, salt, garlic,</Typography>
-            <Typography>pepper, soy sauce and other spices was a practical way to preserve it without refrigeration.</Typography>
-            <Typography>This cooking style can be applied to different meats or even seafood.It's best sample it in a Filipino home. </Typography>
+            <Typography>
+              {" "}
+              No list of Filipino food would be complete without adobo.A
+              ubiquitous dish in every household in the Philippines,
+            </Typography>
+            <Typography>
+              it's Mexican in origin. But Filipinos found that cooking meat
+              (often chicken and pork) in vinegar, salt, garlic,
+            </Typography>
+            <Typography>
+              pepper, soy sauce and other spices was a practical way to preserve
+              it without refrigeration.
+            </Typography>
+            <Typography>
+              This cooking style can be applied to different meats or even
+              seafood.It's best sample it in a Filipino home.{" "}
+            </Typography>
             <Typography></Typography>
 
             <Grid container spacing={2}>
-              <Grid item  xs={4} sm>
+              <Grid item xs={4} sm>
                 <Box>
                   <Typography variant="h5">Ingredients </Typography>
                   <Typography>2 tbsp canola oil</Typography>
@@ -108,22 +121,47 @@ export default function SampleRes() {
                 </Box>
               </Grid>
 
-              <Grid item  xs={4} sm sx={{marginLeft:"-290px"}}>
+              <Grid item xs={4} sm sx={{ marginLeft: "-290px" }}>
                 <Container component="main" maxWidth="xs">
                   <Box>
-                   <Typography variant="h5">Cook </Typography>
+                    <Typography variant="h5">Cook </Typography>
                     <Typography variant="h6">Step 1</Typography>
-                    <Typography>Heat oil in pan and sauté garlic and onions.Then add chicken to the</Typography>
-                    <Typography>pan and sear on all sides,until you have a little browning in the chicken skin. </Typography>
+                    <Typography>
+                      Heat oil in pan and sauté garlic and onions.Then add
+                      chicken to the
+                    </Typography>
+                    <Typography>
+                      pan and sear on all sides,until you have a little browning
+                      in the chicken skin.{" "}
+                    </Typography>
                     <Typography variant="h6">Step 2</Typography>
-                    <Typography>Pour in vinegar, soy sauce and water.Add bay leaves, pepper and Knorr </Typography>
-                    <Typography> Chicken Cubes. Bring to a boil over high heat then reduce heat to </Typography>
-                    <Typography>simmer, but do not cover the pan. Continue to simmer for 10 mins.</Typography>
+                    <Typography>
+                      Pour in vinegar, soy sauce and water.Add bay leaves,
+                      pepper and Knorr{" "}
+                    </Typography>
+                    <Typography>
+                      {" "}
+                      Chicken Cubes. Bring to a boil over high heat then reduce
+                      heat to{" "}
+                    </Typography>
+                    <Typography>
+                      simmer, but do not cover the pan. Continue to simmer for
+                      10 mins.
+                    </Typography>
                     <Typography variant="h6">Step 3</Typography>
-                    <Typography>Remove chicken pieces from sauce and fry in another pan until nicely browned.</Typography>
+                    <Typography>
+                      Remove chicken pieces from sauce and fry in another pan
+                      until nicely browned.
+                    </Typography>
                     <Typography variant="h6">Step 4</Typography>
-                    <Typography>Put back fried chicken pieces into sauce. Add sugar and let simmer </Typography>
-                    <Typography>again for another 10 minutes or until sauce has thickened. Serve warm.</Typography>
+                    <Typography>
+                      Put back fried chicken pieces into sauce. Add sugar and
+                      let simmer{" "}
+                    </Typography>
+                    <Typography>
+                      again for another 10 minutes or until sauce has thickened.
+                      Serve warm.
+                    </Typography>
                   </Box>
                 </Container>
               </Grid>
@@ -133,13 +171,23 @@ export default function SampleRes() {
           <RecipeContainer>
             <img src="/assets/Sisig.jpg" width="800px" height="600px" />
             <RecipeName>Pork Sisig</RecipeName>
-            <Typography>Nothing goes to waste in Filipino food.In the culinary capital of Pampanga, they turn the pork's cheeks,head </Typography>
-            <Typography>and liver into a sizzling dish called Sisig.The crunchy and chewy texture of this appetizer is a perfect match</Typography>
-            <Typography> for a cold beer.Serve with hot sauce and Knorr seasoning to suit the preference of you and your buddies.</Typography>
+            <Typography>
+              Nothing goes to waste in Filipino food.In the culinary capital of
+              Pampanga, they turn the pork's cheeks,head{" "}
+            </Typography>
+            <Typography>
+              and liver into a sizzling dish called Sisig.The crunchy and chewy
+              texture of this appetizer is a perfect match
+            </Typography>
+            <Typography>
+              {" "}
+              for a cold beer.Serve with hot sauce and Knorr seasoning to suit
+              the preference of you and your buddies.
+            </Typography>
             <Grid container>
               <Grid item xs>
                 <Box>
-                <Typography variant="h5">Ingredients </Typography>
+                  <Typography variant="h5">Ingredients </Typography>
                   <Typography>2 kg whole pork liempo </Typography>
                   <Typography>(lechon kawali cut)</Typography>
                   <Typography>1 tbsp rock salt</Typography>
@@ -158,24 +206,53 @@ export default function SampleRes() {
                 </Box>
               </Grid>
 
-              <Grid item xs sx={{marginLeft:"-290px"}}>
+              <Grid item xs sx={{ marginLeft: "-290px" }}>
                 <Container component="main" maxWidth="xs">
                   <Box>
-                  <Typography variant="h5">Cook </Typography>
+                    <Typography variant="h5">Cook </Typography>
                     <Typography variant="h6">Step 1</Typography>
-                    <Typography>Let's begin by getting a pot and filling it with water then add salt,</Typography>
-                    <Typography>onion wedges and the pork belly or lechon kawali. Cook until tender.</Typography>
-                    <Typography>Drain from the water and set aside on a plate or tray to cool and air-dry.</Typography>
+                    <Typography>
+                      Let's begin by getting a pot and filling it with water
+                      then add salt,
+                    </Typography>
+                    <Typography>
+                      onion wedges and the pork belly or lechon kawali. Cook
+                      until tender.
+                    </Typography>
+                    <Typography>
+                      Drain from the water and set aside on a plate or tray to
+                      cool and air-dry.
+                    </Typography>
                     <Typography variant="h6">Step 2</Typography>
-                    <Typography>Get a shallow pan and make it nice and hot. Pour enough oil and deep fry</Typography>
-                    <Typography>tenderized pork until crisp and golden brown. Let cool and chop coarsely.</Typography>
+                    <Typography>
+                      Get a shallow pan and make it nice and hot. Pour enough
+                      oil and deep fry
+                    </Typography>
+                    <Typography>
+                      tenderized pork until crisp and golden brown. Let cool and
+                      chop coarsely.
+                    </Typography>
                     <Typography variant="h6">Step 3</Typography>
-                    <Typography>Using another pan, throw in the garlic and liver. Saute until fully cooked.</Typography>
+                    <Typography>
+                      Using another pan, throw in the garlic and liver. Saute
+                      until fully cooked.
+                    </Typography>
                     <Typography variant="h6">Step 4</Typography>
-                    <Typography>Off heat, toss in the onions, chopped crispy pork and green chillies.</Typography>
-                    <Typography>Season with more Knorr Liquid Seasoning, calamansi juice and pepper.</Typography>
-                    <Typography>And that's it! Prepare to eat more than usual for you will find yourself</Typography>
-                    <Typography>falling in love with the goodness of this Crispy Sisig!</Typography>
+                    <Typography>
+                      Off heat, toss in the onions, chopped crispy pork and
+                      green chillies.
+                    </Typography>
+                    <Typography>
+                      Season with more Knorr Liquid Seasoning, calamansi juice
+                      and pepper.
+                    </Typography>
+                    <Typography>
+                      And that's it! Prepare to eat more than usual for you will
+                      find yourself
+                    </Typography>
+                    <Typography>
+                      falling in love with the goodness of this Crispy Sisig!
+                    </Typography>
                   </Box>
                 </Container>
               </Grid>
@@ -183,15 +260,23 @@ export default function SampleRes() {
           </RecipeContainer>
 
           <RecipeContainer>
-            <img src="/assets/Bulalo.jpg"  width="800px" height="600px" />
+            <img src="/assets/Bulalo.jpg" width="800px" height="600px" />
             <RecipeName>Bulalo</RecipeName>
-            <Typography>Despite the perennial heat, Filipinos often enjoy sipping piping hot bulalo soup made with from freshly </Typography>
-            <Typography>slaughtered Batangas beef.The broth is rich with flavors seeped from the beef after boiling for hours.</Typography>
-            <Typography>The bones are big, meaning more bone marrow to enjoy.</Typography>
+            <Typography>
+              Despite the perennial heat, Filipinos often enjoy sipping piping
+              hot bulalo soup made with from freshly{" "}
+            </Typography>
+            <Typography>
+              slaughtered Batangas beef.The broth is rich with flavors seeped
+              from the beef after boiling for hours.
+            </Typography>
+            <Typography>
+              The bones are big, meaning more bone marrow to enjoy.
+            </Typography>
             <Grid container>
               <Grid item xs>
                 <Box>
-                <Typography variant="h5">Ingredients </Typography>
+                  <Typography variant="h5">Ingredients </Typography>
                   <Typography>3/4 kg bulalo </Typography>
                   <Typography>water to cover</Typography>
                   <Typography>2 pcs onions, quartered</Typography>
@@ -203,30 +288,63 @@ export default function SampleRes() {
                   <Typography>3 pcs potatoes, quartered</Typography>
                   <Typography>1/2 kg noodles, cooked</Typography>
                   <Typography>1 bunch pechay, trimmed</Typography>
-                 
                 </Box>
               </Grid>
 
-              <Grid item xs sx={{marginLeft:"-290px"}}>
+              <Grid item xs sx={{ marginLeft: "-290px" }}>
                 <Container component="main" maxWidth="xs">
                   <Box>
-                  <Typography variant="h5">Cook </Typography>
+                    <Typography variant="h5">Cook </Typography>
                     <Typography variant="h6">Step 1</Typography>
-                    <Typography>Let’s begin by cooking our bulalo until tender. All you need to do is bring</Typography>
-                    <Typography>a pot filled with water, onions, garlic, pepper and beef to a boil then simmer until</Typography>
-                    <Typography>the beef is very tender. Pour more water if needed.Remember to skim the top</Typography>
-                    <Typography>of the liquid and remove the scum that appear on top of the water to keep the broth clear.</Typography>
+                    <Typography>
+                      Let’s begin by cooking our bulalo until tender. All you
+                      need to do is bring
+                    </Typography>
+                    <Typography>
+                      a pot filled with water, onions, garlic, pepper and beef
+                      to a boil then simmer until
+                    </Typography>
+                    <Typography>
+                      the beef is very tender. Pour more water if
+                      needed.Remember to skim the top
+                    </Typography>
+                    <Typography>
+                      of the liquid and remove the scum that appear on top of
+                      the water to keep the broth clear.
+                    </Typography>
                     <Typography variant="h6">Step 2</Typography>
-                    <Typography>Once the beef is nice and tender. Remove it from the boiling liquid and drop</Typography>
-                    <Typography> Knorr Beef Cubes, siling labuyo or hot sauce next before adding the potatoes</Typography>
-                    <Typography> Now, bring this to a simmer. Once the potatoes are cooked, place the pechay in.</Typography>
+                    <Typography>
+                      Once the beef is nice and tender. Remove it from the
+                      boiling liquid and drop
+                    </Typography>
+                    <Typography>
+                      {" "}
+                      Knorr Beef Cubes, siling labuyo or hot sauce next before
+                      adding the potatoes
+                    </Typography>
+                    <Typography>
+                      {" "}
+                      Now, bring this to a simmer. Once the potatoes are cooked,
+                      place the pechay in.
+                    </Typography>
                     <Typography variant="h6">Step 3</Typography>
-                    <Typography>Place the cooked noodles in a large bowl. Gently add the cooked bulalo and other</Typography>
-                    <Typography>ingredients in and pour the hot broth. Finally, that’s our dish!</Typography>
+                    <Typography>
+                      Place the cooked noodles in a large bowl. Gently add the
+                      cooked bulalo and other
+                    </Typography>
+                    <Typography>
+                      ingredients in and pour the hot broth. Finally, that’s our
+                      dish!
+                    </Typography>
                     <Typography variant="h6">Step 4</Typography>
-                    <Typography>Spicy Bulalo Noodles will definitely make your day! So, don’t be selfish</Typography>
-                    <Typography>Spread the joy by sharing this dish with your loved ones. The more happy hearts, the merrier!</Typography>
-                    
+                    <Typography>
+                      Spicy Bulalo Noodles will definitely make your day! So,
+                      don’t be selfish
+                    </Typography>
+                    <Typography>
+                      Spread the joy by sharing this dish with your loved ones.
+                      The more happy hearts, the merrier!
+                    </Typography>
                   </Box>
                 </Container>
               </Grid>
@@ -234,14 +352,19 @@ export default function SampleRes() {
           </RecipeContainer>
 
           <RecipeContainer>
-            <img src="/assets/Tinola.jpg"  width="800px" height="600px" />
+            <img src="/assets/Tinola.jpg" width="800px" height="600px" />
             <RecipeName>Tinola</RecipeName>
-            <Typography>The simple sour broth is flavored with onions, tomatoes and sambag (tamarind) </Typography>
-            <Typography>and cooked over coco-lumber firewood for hours.</Typography>
+            <Typography>
+              The simple sour broth is flavored with onions, tomatoes and sambag
+              (tamarind){" "}
+            </Typography>
+            <Typography>
+              and cooked over coco-lumber firewood for hours.
+            </Typography>
             <Grid container>
               <Grid item xs>
                 <Box>
-                <Typography variant="h5">Ingredients </Typography>
+                  <Typography variant="h5">Ingredients </Typography>
                   <Typography>1 tbsp cooking oil </Typography>
                   <Typography>1 pc onion,small</Typography>
                   <Typography>-sized,chopped</Typography>
@@ -253,34 +376,70 @@ export default function SampleRes() {
                   <Typography>1 pc chayote or 1 pc small</Typography>
                   <Typography>- sized green papaya, sliced</Typography>
                   <Typography>2 stalks moringa leaves</Typography>
-    
                 </Box>
               </Grid>
 
-              <Grid item xs sx={{marginLeft:"-290px"}}>
+              <Grid item xs sx={{ marginLeft: "-290px" }}>
                 <Container component="main" maxWidth="xs">
                   <Box>
-                  <Typography variant="h5">Cook </Typography>
+                    <Typography variant="h5">Cook </Typography>
                     <Typography variant="h6">Step 1</Typography>
-                    <Typography>Get a pot and bring it up to medium heat before pouring in the oil. </Typography>
-                    <Typography>Drop in the onions, garlic and ginger and sauté slowly for about 2 minutes </Typography>
-                    <Typography>or until you can smell the lovely aroma.</Typography>
+                    <Typography>
+                      Get a pot and bring it up to medium heat before pouring in
+                      the oil.{" "}
+                    </Typography>
+                    <Typography>
+                      Drop in the onions, garlic and ginger and sauté slowly for
+                      about 2 minutes{" "}
+                    </Typography>
+                    <Typography>
+                      or until you can smell the lovely aroma.
+                    </Typography>
                     <Typography variant="h6">Step 2</Typography>
-                    <Typography>It’s time to drop in the chicken pieces and stir until it turns white or light brown in color.</Typography>
+                    <Typography>
+                      It’s time to drop in the chicken pieces and stir until it
+                      turns white or light brown in color.
+                    </Typography>
                     <Typography variant="h6">Step 3</Typography>
-                    <Typography>Pour in the water and add your Knorr Chicken Broth cubes.Bring this to </Typography>
-                    <Typography>a simmer until chicken is tender and cooked through.</Typography>
+                    <Typography>
+                      Pour in the water and add your Knorr Chicken Broth
+                      cubes.Bring this to{" "}
+                    </Typography>
+                    <Typography>
+                      a simmer until chicken is tender and cooked through.
+                    </Typography>
                     <Typography variant="h6">Step 4</Typography>
-                    <Typography>You can now add your sayote or green papaya and cook until tender.</Typography>
+                    <Typography>
+                      You can now add your sayote or green papaya and cook until
+                      tender.
+                    </Typography>
                     <Typography variant="h6">Step 5</Typography>
-                    <Typography>Dahon ng sili is added at the last stage to ensure leaves (and nutrients)</Typography>
-                    <Typography> don’t dry up.Give this a minute then it is done. Malunggay is also   </Typography>
-                    <Typography>another healthy alternative because it is packed with vitamins and  </Typography>
-                    <Typography> minerals which are good for nursing moms and kids as well.</Typography>
+                    <Typography>
+                      Dahon ng sili is added at the last stage to ensure leaves
+                      (and nutrients)
+                    </Typography>
+                    <Typography>
+                      {" "}
+                      don’t dry up.Give this a minute then it is done. Malunggay
+                      is also{" "}
+                    </Typography>
+                    <Typography>
+                      another healthy alternative because it is packed with
+                      vitamins and{" "}
+                    </Typography>
+                    <Typography>
+                      {" "}
+                      minerals which are good for nursing moms and kids as well.
+                    </Typography>
                     <Typography variant="h6">Step 6</Typography>
-                    <Typography>Enjoy this with patis and calamansi on the side. See the faces of your</Typography>
-                    <Typography>  whole family light up as you bring this to the table.</Typography>
-                    
+                    <Typography>
+                      Enjoy this with patis and calamansi on the side. See the
+                      faces of your
+                    </Typography>
+                    <Typography>
+                      {" "}
+                      whole family light up as you bring this to the table.
+                    </Typography>
                   </Box>
                 </Container>
               </Grid>
@@ -298,26 +457,23 @@ export default function SampleRes() {
           alignItems: "center",
         }}
       >
-         <Button
-              variant="contained"
-              color="primary"
-              onClick={setDrawerOpen}
-            >
-              View All Recipe
-            </Button>
-            <Dialog open={open} onClose={handleClose}>
-              <DialogTitle>{"Do you want more Recipe?"}</DialogTitle>
-              <DialogContent>
-                <DialogContentText>
-                  Please Sign In!
-                </DialogContentText>
-              </DialogContent>
-            
-                <Button  variant="contained" alignItems="center" onClick={() => router.push("sign-in" )}>
-                 Sign-In
-                </Button>
-              
-            </Dialog>
+        <Button variant="contained" color="primary" onClick={setDrawerOpen}>
+          View All Recipe
+        </Button>
+        <Dialog open={open} onClose={handleClose}>
+          <DialogTitle>{"Do you want more Recipe?"}</DialogTitle>
+          <DialogContent>
+            <DialogContentText>Please Sign In!</DialogContentText>
+          </DialogContent>
+
+          <Button
+            variant="contained"
+            alignItems="center"
+            onClick={() => router.push("sign-in")}
+          >
+            Sign-In
+          </Button>
+        </Dialog>
       </Box>
     </Box>
   );

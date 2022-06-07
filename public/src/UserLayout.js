@@ -40,16 +40,22 @@ export default function UserLay({ children }) {
       <Head>
         <title>User</title>
       </Head>
-      <AppBar sx={{color:"#FCF69C",backgroundColor:"#1D5C63"}} >
+      <AppBar sx={{color:"#FCF69C",backgroundColor:"white"}} >
         <Toolbar>
           <IconButton onClick={setDrawerOpen}>
-            <Image src="/assets/bars.svg" alt="bars" width={30} height={30} />
+            <Image src="/assets/bars.svg" alt="dash" width={30} height={30} />
           </IconButton>
           <Typography
-            variant="h5"
-            sx={{ marginLeft: "12px", fontWeight: "700" }}
+            variant="h4"
+            component="div"
+            sx={{
+              flexGrow: 1,
+              fontWeight: "bold",
+              fontFamily: "Brush Script MT",
+              color: "#EB5353",
+            }}
           >
-            Chan's Candle
+            Pinoy Cuisine Food Recipe
           </Typography>
         </Toolbar>
       </AppBar>
@@ -64,9 +70,9 @@ export default function UserLay({ children }) {
           }}
         >
           <Box>
-            <Avatar sx={{ marginLeft: "70px", marginTop: "10px" }} />
+            <Avatar sx={{ marginLeft: "70px", marginTop: "10px", bgcolor:"green" }} />
           </Box>
-          <Typography sx={{ marginLeft: "60px", marginTop: "12px" }}>
+          <Typography sx={{ marginLeft: "70px", marginTop: "12px", fontWeight:"bold"}}>
             User
           </Typography>
           <List sx={{ flexGrow: 1 }}>
@@ -79,9 +85,14 @@ export default function UserLay({ children }) {
               selected={router.pathname.includes("profile")}
             >
               <ListItemIcon>
-                
+              <Image
+                  src="/assets/profile.svg"
+                  alt="user"
+                  width="30"
+                  height={30}
+                />
               </ListItemIcon>
-              <ListItemText primary="Profile" />
+              <ListItemText primary="My Profile" />
             </ListItem>
 
             <ListItem
@@ -90,20 +101,15 @@ export default function UserLay({ children }) {
               sx={{ marginTop: "10px" }}
             >
               <ListItemIcon>
+              <Image
+                  src="/assets/bookmark.svg"
+                  alt="user"
+                  width="30"
+                  height={30}
+                />
                
               </ListItemIcon>
-              <ListItemText primary="Purchase" />
-            </ListItem>
-
-            <ListItem
-              button
-              onClick={() => drawerToPage("/mycart")}
-              sx={{ marginTop: "10px" }}
-            >
-              <ListItemIcon>
-                
-              </ListItemIcon>
-              <ListItemText primary="My Cart" />
+              <ListItemText primary="Favorite" />
             </ListItem>
 
 
@@ -113,9 +119,14 @@ export default function UserLay({ children }) {
               sx={{ marginTop: "10px" }}
             >
               <ListItemIcon>
-                
+              <Image
+                  src="/assets/burger.svg"
+                  alt="user"
+                  width="30"
+                  height={30}
+                />
               </ListItemIcon>
-              <ListItemText primary="View Shop" />
+              <ListItemText primary="View All Recipe" />
             </ListItem>
 
           </List>
@@ -124,6 +135,12 @@ export default function UserLay({ children }) {
             <ListItem button onClick={() => drawerToPage("/home")}>
               <ListItemIcon>
                
+              <Image
+                  src="/assets/sign-up.svg"
+                  alt="user"
+                  width="30"
+                  height={30}
+                />
               </ListItemIcon>
               <ListItemText primary="Sign-Out" />
             </ListItem>
