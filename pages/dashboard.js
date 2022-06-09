@@ -11,20 +11,20 @@ export default function Dashboard() {
     },
   };
   return (
-    <Box sx={{padding:" 0 30px"}}>
+    <Box sx={{padding:" 0 30px", marginTop:"100px"}}>
       <Head>
         <title> Admin-Dashboard</title>
       </Head>
     <Grid container spacing={2} >
       <Grid item  xs={4} sm>
         <Paper >
-          <Typography variant= "h4">Orders</Typography>
+          <Typography variant= "h4">Users</Typography>
           <Typography variant="h2">100</Typography>
         </Paper>
       </Grid>
       <Grid item xs={4} sm> 
         <Paper >
-          <Typography variant="h4">Customers</Typography>
+          <Typography variant="h4">Recipe</Typography>
           <Typography variant="h2">100</Typography>
         </Paper>
       </Grid>

@@ -58,67 +58,67 @@ margin: 10px 0 ;
 
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
 
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
 
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
 
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
 
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
 
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
             <RecipeContainer>
             <img src="/assets/tofu.avif"/>
-            <RecipeName>Tofu Malala</RecipeName>
+            <RecipeName>Tofu</RecipeName>
             <ViewRecipe>View Recipe</ViewRecipe>
             </RecipeContainer>
 

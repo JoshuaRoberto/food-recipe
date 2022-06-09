@@ -39,7 +39,11 @@ export default function SignIn() {
         text: "Logged in Successfully",
         severity: "success",
         
+
       });
+      window.location.assign("recipe");
+      return true;   
+
     } else if (state.email === "" && state.password === "") {
       setOpen(true);
       setMessage({
